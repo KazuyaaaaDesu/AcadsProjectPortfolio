@@ -8,7 +8,7 @@ import Contactsection from '../components/Contactsection';
 
 function Portfolio() {
     return (
-        <div className="relative w-screen h-screen overflow-hidden bg-[#030712]">
+        <div className="relative w-screen overflow-hidden bg-[#030712]">
             
             <div className="fixed inset-0 z-0 pointer-events-none">
                 <Background />
@@ -18,19 +18,23 @@ function Portfolio() {
             
             <div className="relative z-10 h-screen overflow-y-scroll scroll-smooth p-24 pt-0">
                 
-                <section className="w-full h-screen snap-start bg-transparent">
+                <section className="w-full min-h-screen snap-start bg-transparent">
                     <Homesection />
                 </section>
 
-                <section className="w-full h-screen snap-start bg-transparent">
+                <section className="w-full min-h-screen snap-start bg-transparent">
+                    <Projectsection />
+                </section>
+
+                <section className="w-full min-h-screen snap-start bg-transparent">
                     <Aboutmesection />
                 </section>
 
-                <section className="w-full h-screen snap-start bg-transparent">
+                <section className="w-full min-h-screen snap-start bg-transparent">
                     <Toolssection />
                 </section>
 
-                <section className="w-full h-screen snap-start bg-transparent">
+                <section className="w-full min-h-screen snap-start bg-transparent">
                     <Contactsection />
                 </section>
                 
