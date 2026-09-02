@@ -1,29 +1,35 @@
-export default function Navbar() {
+interface NavbarProps {
+  activeSection: string;
+}
+
+export default function Navbar({ activeSection }: NavbarProps) {
+  const links = ['home', 'projects', 'tools', 'about', 'experience', 'contact'];
+
   return (
-    <nav className="  w-full bg-gray-800/40 backdrop-blur-sm p-4 font-mono">
-      <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between">
-          <div className="text-white font-bold text-xl tracking-wider">
-            &gt;_ KIRBY BENJ GUTIERREZ    
-          </div>
-          
-          <div className="flex items-center space-x-6 text-sm">
-            <a href="#projects" className="text-gray-400 hover:text-[#c084fc] transition-colors">
-              Projects
-            </a>
-            <a href="#tools" className="text-gray-400 hover:text-[#c084fc] transition-colors">
-              Tools
-            </a>
-            <a href="#about" className="text-gray-400 hover:text-[#c084fc] transition-colors">
-                About
-            </a>
-            <a href="#experience" className="text-gray-400 hover:text-[#c084fc] transition-colors">
-                Experience
-            </a>
-            <a href="#contact" className="text-gray-400 hover:text-[#c084fc] transition-colors">
-                Contact
-            </a>
-          </div>
+    <nav className="w-full bg-[#030712]/80 backdrop-blur-md border-b border-gray-800/50 p-4 font-mono">
+      <div className="container mx-auto px-4 flex items-center justify-between">
+        <a href="#home" className="text-white font-bold text-xl tracking-wider hover:text-[#c084fc] transition-colors">
+          &gt;_ KIRBY BENJ GUTIERREZ    
+        </a>
+        
+        <div className="flex items-center space-x-6 text-sm">
+          {links.map((link) => {
+            const isActive = activeSection === link;
+            return (
+              <a
+                key={link}
+                href={`#${link}`}
+                className={`capitalize transition-colors relative py-1 ${
+                  isActive ? 'text-[#c084fc] font-bold' : 'text-gray-400 hover:text-[#c084fc]'
+                }`}
+              >
+                {link}
+                {isActive && (
+                  <span className="absolute bottom-0 left-0 w-full h-[2px] bg-[#c084fc] rounded-full" />
+                )}
+              </a>
+            );
+          })}
         </div>
       </div>
     </nav>
