@@ -9,7 +9,7 @@ export default function Navbar({ activeSection }: NavbarProps) {
     <nav className="w-full bg-[#030712]/80 backdrop-blur-md border-b border-gray-800/50 p-4 font-mono">
       <div className="container mx-auto px-4 flex items-center justify-between">
         <a href="#home" className="text-purple-500 font-bold text-xl tracking-wider hover:text-[#06b6d4] transition-colors">
-          &gt;_ KIRBY BENJ GUTIERREZ    
+          &gt;_ KIRBY BENJ GUTIERREZ     TEST
         </a>
         
         <div className="flex items-center space-x-6 text-sm">
