@@ -8,8 +8,15 @@ export default function Navbar({ activeSection }: NavbarProps) {
   return (
     <nav className="w-full bg-[#030712]/80 backdrop-blur-md border-b border-gray-800/50 p-4 font-mono">
       <div className="container mx-auto px-4 flex items-center justify-between">
-        <a href="#home" className="text-purple-500 font-bold text-xl tracking-wider hover:text-[#06b6d4] transition-colors">
-          &gt;_ KIRBY BENJ GUTIERREZ
+        <a 
+          href="/home" 
+          className="text-purple-500 font-bold text-xl tracking-wider hover:text-cyan-500 transition-colors"
+        >
+          {/* Shows on mobile/small screens, hides on medium screens and up */}
+          <span className="md:hidden"></span>
+
+          {/* Hides on mobile/small screens, shows on medium screens and up */}
+          <span className="hidden md:inline">KIRBY BENJ GUTIERREZ</span>
         </a>
         
         <div className="flex items-center space-x-6 text-sm">

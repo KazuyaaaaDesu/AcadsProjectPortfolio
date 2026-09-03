@@ -27,7 +27,7 @@ export default function Homesection() {
         
         {/* Text */}
         <p className="max-w-xl text-gray-400 text-sm md:text-base leading-relaxed">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+          A Mathematics & Computer Science student turning abstract math, automation scripts, and weird ideas into real projects.
         </p>
 
         {/* Action Buttons */}
@@ -59,7 +59,7 @@ export default function Homesection() {
             <div className="w-64 h-72 lg:w-72 lg:h-84 overflow-hidden rounded-xl bg-gray-900 flex items-center justify-center">
              <img 
               className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" 
-              src={`${import.meta.env.BASE_URL}images/avatar.svg`} 
+              src={`${import.meta.env.BASE_URL}images/avatarprofile.jfif`} 
               alt="Kirby Benj Gutierrez" 
             />
             </div>

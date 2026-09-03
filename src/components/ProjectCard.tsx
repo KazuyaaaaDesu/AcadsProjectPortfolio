@@ -49,13 +49,14 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
             )}
           </div>
         </div>
-
+        {/* add for future use of button to view project
         <div className="p-6 pt-0 flex items-center justify-between mt-auto">
           <button className={`text-sm ${project.buttonColor} transition-colors cursor-pointer`}>
             View Project ↗
           </button>
           <span className="text-gray-500 text-lg">⌁</span>
         </div>
+        */}
       </div>
     </div>
   );

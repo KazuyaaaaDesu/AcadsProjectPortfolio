@@ -11,7 +11,7 @@ import {
 
 import { SiReact, SiFigma } from "react-icons/si";
 
-import profileImage from "/images/placeholder.png";
+import profileImage from "/images/aboutme2.jfif";
 
 export default function Aboutmesections() {
   return (
@@ -798,7 +798,7 @@ export default function Aboutmesections() {
                     mt-[-20px]
                   "
                 >
-                  Wala ka sigurong kaibigan
+                  If you didn't like the problem, you might not like the solution. But if you understand the problem, you will know what to do.
                 </p>
 
 
