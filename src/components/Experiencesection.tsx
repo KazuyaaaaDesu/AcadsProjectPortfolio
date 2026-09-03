@@ -396,7 +396,7 @@ export default function ExperienceSection() {
                     >
 
                       <img
-                        src={"/src/assets/ALPS_Logo-06.png"}
+                        src={"images/ALPS_Logo-06.png"}
                         alt="Arcana Learning and Processes Solutions"
                         className="w-15 h-15 rounded-full "
                       />

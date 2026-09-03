@@ -11,7 +11,7 @@ import {
 
 import { SiReact, SiFigma } from "react-icons/si";
 
-import profileImage from "../assets/placeholder.png";
+import profileImage from "/images/placeholder.png";
 
 export default function Aboutmesections() {
   return (

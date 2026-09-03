@@ -45,7 +45,7 @@ export const developmentProjects: DevelopmentProject[] = [
     shadow: "hover:shadow-[0_0_35px_rgba(45,212,191,0.18)]",
     tagColor: "text-emerald-400",
     buttonColor: "text-emerald-300 hover:text-emerald-200",
-    image: "/src/assets/placeholder.png",
+    image: "images/placeholder.png",
   },
   {
     title: "Management System: Automating Billing and Enhancing Customer Experience",
@@ -60,7 +60,7 @@ export const developmentProjects: DevelopmentProject[] = [
     shadow: "hover:shadow-[0_0_35px_rgba(99,102,241,0.2)]",
     tagColor: "text-indigo-400",
     buttonColor: "text-indigo-300 hover:text-indigo-200",
-    image: "/src/assets/placeholder.png",
+    image: "images/placeholder.png",
   },
   {
     title: "Automated Grading System",
@@ -74,7 +74,7 @@ export const developmentProjects: DevelopmentProject[] = [
     shadow: "hover:shadow-[0_0_35px_rgba(217,70,239,0.18)]",
     tagColor: "text-pink-400",
     buttonColor: "text-pink-300 hover:text-pink-200",
-    image: "/src/assets/placeholder.png",
+    image: "images/placeholder.png",
   },
   {
     title: "Combinations and Permutations Calculator",
@@ -88,7 +88,7 @@ export const developmentProjects: DevelopmentProject[] = [
     shadow: "hover:shadow-[0_0_35px_rgba(74,222,128,0.18)]",
     tagColor: "text-emerald-400",
     buttonColor: "text-emerald-300 hover:text-emerald-200",
-    image: "/src/assets/placeholder.png",
+    image: "images/placeholder.png",
   },
   {
     title: "Appare Vestigium",
@@ -102,7 +102,7 @@ export const developmentProjects: DevelopmentProject[] = [
     shadow: "hover:shadow-[0_0_35px_rgba(20,184,166,0.18)]",
     tagColor: "text-cyan-400",
     buttonColor: "text-cyan-300 hover:text-cyan-200",
-    image: "/src/assets/placeholder.png",
+    image: "images/placeholder.png",
   },
   {
     title: "MADS: Modular Arithmetic and Diophantine Scheduling",
@@ -116,7 +116,7 @@ export const developmentProjects: DevelopmentProject[] = [
     shadow: "hover:shadow-[0_0_35px_rgba(168,85,247,0.18)]",
     tagColor: "text-purple-400",
     buttonColor: "text-purple-300 hover:text-purple-200",
-    image: "/src/assets/placeholder.png",
+    image: "images/placeholder.png",
   },
 ];
 
@@ -129,8 +129,8 @@ export const researchPapers: ResearchPaper[] = [
     shadow: "hover:shadow-[0_0_35px_rgba(59,130,246,0.18)]",
     tagColor: "text-cyan-400",
     buttonColor: "text-cyan-300 hover:text-cyan-200",
-    image: "/src/assets/placeholder.png",
-    pdfUrl: "/src/assets/ray-tracing.pdf",
+    image: "images/placeholder.png",
+    pdfUrl: "papers/ray-tracing.pdf",
   },
   {
     title: "Multi-Commodity Minimum-Cost Flow for Blood Distribution",
@@ -140,8 +140,8 @@ export const researchPapers: ResearchPaper[] = [
     shadow: "hover:shadow-[0_0_35px_rgba(20,184,166,0.18)]",
     tagColor: "text-teal-400",
     buttonColor: "text-teal-300 hover:text-teal-200",
-    image: "/src/assets/placeholder.png",
-    pdfUrl: "/src/assets/gta.pdf",
+    image: "images/placeholder.png",
+    pdfUrl: "papers/gta.pdf",
   },
   {
     title: "Complex Impedance and Phasor Relationships",
@@ -151,8 +151,8 @@ export const researchPapers: ResearchPaper[] = [
     shadow: "hover:shadow-[0_0_35px_rgba(168,85,247,0.18)]",
     tagColor: "text-purple-400",
     buttonColor: "text-purple-300 hover:text-purple-200",
-    image: "/src/assets/placeholder.png",
-    pdfUrl: "/src/assets/complex.pdf",
+    image: "images/placeholder.png",
+    pdfUrl: "papers/complex.pdf",
   },
   {
     title: "MADS: Modular Arithmetic and Diophantine Scheduling",
@@ -162,8 +162,8 @@ export const researchPapers: ResearchPaper[] = [
     shadow: "hover:shadow-[0_0_35px_rgba(236,72,153,0.18)]",
     tagColor: "text-pink-400",
     buttonColor: "text-pink-300 hover:text-pink-200",
-    image: "/src/assets/placeholder.png",
-    pdfUrl: "/src/assets/mads.pdf",
+    image: "images/placeholder.png",
+    pdfUrl: "papers/mads.pdf",
   },
  /* { 
     title: "Fractional Calculus of Piecewise Continuous Functions",
@@ -173,8 +173,8 @@ export const researchPapers: ResearchPaper[] = [
     shadow: "hover:shadow-[0_0_35px_rgba(217,70,239,0.18)]",
     tagColor: "text-fuchsia-400",
     buttonColor: "text-fuchsia-300 hover:text-fuchsia-200",
-    image: "/src/assets/placeholder.png",
-    pdfUrl: "/src/assets/sample-paper.pdf",
+    image: "images/placeholder.png",
+    pdfUrl: "papers/sample-paper.pdf",
   }, */
   {
     title: "Real-Life Application of Related Rates on Typhoons",
@@ -184,7 +184,7 @@ export const researchPapers: ResearchPaper[] = [
     shadow: "hover:shadow-[0_0_35px_rgba(251,146,60,0.18)]",
     tagColor: "text-orange-400",
     buttonColor: "text-orange-300 hover:text-orange-200",
-    image: "/src/assets/placeholder.png",
-    pdfUrl: "/src/assets/sample-paper.pdf",
+    image: "images/placeholder.png",
+    pdfUrl: "papers/sample-paper.pdf",
   },
 ];
