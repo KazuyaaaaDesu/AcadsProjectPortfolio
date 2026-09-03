@@ -57,12 +57,11 @@ export default function Homesection() {
 
             {/* Profile Image Container */}
             <div className="w-64 h-72 lg:w-72 lg:h-84 overflow-hidden rounded-xl bg-gray-900 flex items-center justify-center">
-              <img 
-                className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" 
-                src={`${import.meta.env.BASE_URL}images/avatar.svg`}
-                
-                alt="Kirby Benj Gutierrez" 
-              />
+             <img 
+  className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-500" 
+  src={`${import.meta.env.BASE_URL}images/avatar.svg`} 
+  alt="Kirby Benj Gutierrez" 
+/>
             </div>
           </div>
 
