@@ -7,5 +7,5 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   // 2. Add tailwindcss() right beside the react() plugin block
   plugins: [react(), tailwindcss()],
-  base: '/AcadsProjectPortfolio/',
+  base: './AcadsProjectPortfolio/',
 })
