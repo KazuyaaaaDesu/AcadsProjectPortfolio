@@ -1,20 +1,13 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
-
-import Portfolio from './page/Portfolio';
+import Portfolio from "./page/Portfolio";
 
 export default function App() {
-
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Portfolio />} />
-        </Routes>
-      </BrowserRouter>
-
-    </>
+    <BrowserRouter basename="/AcadsProjectPortfolio">
+      <Routes>
+        <Route path="/" element={<Portfolio />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
-
