@@ -4,7 +4,7 @@ import Portfolio from "./page/Portfolio";
 
 export default function App() {
   return (
-    <BrowserRouter basename="/AcadsProjectPortfolio">
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<Portfolio />} />
       </Routes>
