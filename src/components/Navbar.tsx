@@ -8,7 +8,7 @@ export default function Navbar({ activeSection }: NavbarProps) {
   return (
     <nav className="w-full bg-[#030712]/80 backdrop-blur-md border-b border-gray-800/50 p-4 font-mono">
       <div className="container mx-auto px-4 flex items-center justify-between">
-        <a href="#home" className="text-white font-bold text-xl tracking-wider hover:text-[#c084fc] transition-colors">
+        <a href="#home" className="text-purple-500 font-bold text-xl tracking-wider hover:text-[#06b6d4] transition-colors">
           &gt;_ KIRBY BENJ GUTIERREZ    
         </a>
         

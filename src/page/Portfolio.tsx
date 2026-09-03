@@ -7,6 +7,7 @@ import Aboutmesection from '../components/Aboutmesection';
 import Toolssection from './../components/Toolssection';
 import Contactsection from '../components/Contactsection';
 import Experiencesection from '../components/Experiencesection';
+import Footer from '../components/Footer';
 
 function Portfolio() {
     const [activeSection, setActiveSection] = useState('home');
@@ -73,14 +74,18 @@ function Portfolio() {
                     <Aboutmesection />
                 </section>
 
-                <section id="experience" className="w-full min-h-screen p-6 md:p-24">
+                <section id="experience" className="w-full min-h-screen p-6 md:p-24 pt-0">
                     <Experiencesection />
                 </section>
 
-                <section id="contact" className="w-full min-h-screen p-6 md:p-24">
+                <section id="contact" className="w-full min-h-screen p-6 md:p-24 md:pt-0">
                     <Contactsection />
                 </section>
+                <section id="footer" className="">
+                <Footer />
+            </section>
             </div>
+            
         </div>
     );
 }
