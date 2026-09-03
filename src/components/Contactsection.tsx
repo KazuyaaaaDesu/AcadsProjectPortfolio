@@ -4,7 +4,6 @@ import {
   FaEnvelope,
   FaGithub,
   FaLinkedin,
-  FaMapMarkerAlt,
   FaArrowRight,
   FaPaperPlane,
   FaCheck,
