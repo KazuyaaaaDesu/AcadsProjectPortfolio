@@ -88,7 +88,7 @@ export const developmentProjects: DevelopmentProject[] = [
     shadow: "hover:shadow-[0_0_35px_rgba(74,222,128,0.18)]",
     tagColor: "text-emerald-400",
     buttonColor: "text-emerald-300 hover:text-emerald-200",
-    image: "images/miggy.jfif",
+    image: "images/permucalcu.jfif",
   },
   {
     title: "Appare Vestigium",
