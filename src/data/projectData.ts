@@ -88,7 +88,7 @@ export const developmentProjects: DevelopmentProject[] = [
     shadow: "hover:shadow-[0_0_35px_rgba(74,222,128,0.18)]",
     tagColor: "text-emerald-400",
     buttonColor: "text-emerald-300 hover:text-emerald-200",
-    image: "images/permucalcu.jfif",
+    image: "images/miggy.jfif",
   },
   {
     title: "Appare Vestigium",
@@ -165,17 +165,17 @@ export const researchPapers: ResearchPaper[] = [
     image: "images/modulararithmethic.png",
     pdfUrl: "papers/mads.pdf",
   },
- /* { 
-    title: "Fractional Calculus of Piecewise Continuous Functions",
-    category: "Calculus",
-    description: "An exploration of Fractional Calculus alongside piecewise continuous functions and the problems that arise from their interaction.",
-    gradient: "from-violet-400 via-fuchsia-500 to-pink-500",
-    shadow: "hover:shadow-[0_0_35px_rgba(217,70,239,0.18)]",
-    tagColor: "text-fuchsia-400",
-    buttonColor: "text-fuchsia-300 hover:text-fuchsia-200",
-    image: "images/placeholder.png",
-    pdfUrl: "papers/sample-paper.pdf",
-  }, */
+  /* { 
+     title: "Fractional Calculus of Piecewise Continuous Functions",
+     category: "Calculus",
+     description: "An exploration of Fractional Calculus alongside piecewise continuous functions and the problems that arise from their interaction.",
+     gradient: "from-violet-400 via-fuchsia-500 to-pink-500",
+     shadow: "hover:shadow-[0_0_35px_rgba(217,70,239,0.18)]",
+     tagColor: "text-fuchsia-400",
+     buttonColor: "text-fuchsia-300 hover:text-fuchsia-200",
+     image: "images/placeholder.png",
+     pdfUrl: "papers/sample-paper.pdf",
+   }, */
   {
     title: "Real-Life Application of Related Rates on Typhoons",
     category: "Applied Calculus",
