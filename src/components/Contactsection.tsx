@@ -957,7 +957,7 @@ export default function ContactSection() {
                   <ContactItem
                     icon={< FaPhone />}
                     label="PHONE"
-                    value="+63 657 581 324"
+                    value="+63 965 758 1324"
                     color="text-pink-400"
                   />
 
